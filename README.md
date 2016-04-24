@@ -15,7 +15,7 @@ This small program will help them in converting SoapUI exported XML to convert i
 
 ## Execution Instructions
 
-- Clone repository
+- Clone repository `https://github.com/ubaidurrehman-10p/soapui2postman.git`
 - `$ npm install`
 - `$ node main.js input.xml output.json`
 
