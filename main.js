@@ -71,7 +71,7 @@ function validateContent(contentObject) {
         }
 
         var resource = soapInterface[0]['con:resource'];
-        if (!resource || resource .length <= 0) {
+        if (!resource || resource.length <= 0) {
             reject(new Error('No resource in the project.'));
         }
         fulfill(contentObject);
@@ -163,8 +163,6 @@ function processContent(soapInterface, response, collectionId) {
 
                     response.requests.push(destinationRequest);
                 }
-
-
             }
         }
     }

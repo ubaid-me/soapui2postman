@@ -1,7 +1,7 @@
 {
-  "name": "s2p",
+  "name": "soapui2postman",
   "version": "1.0.0",
-  "description": "",
+  "description": "Converts SoapUI (https://www.soapui.org/) XML export to Postman (https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?utm_source=chrome-ntp-icon) compatible json format.",
   "main": "main.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/test-main.js"

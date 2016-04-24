@@ -30,8 +30,7 @@ describe('Soap UI to Postman Conversion', function () {
             .to.eventually.be.a('object')
             .notify(done);
     });
-
-
+    
     it('should fail if con:soapui-project element is not present in parsed object', function (done) {
         expect(main.validateContent({}))
             .to.eventually.be.rejectedWith(Error)
